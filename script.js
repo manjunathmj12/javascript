@@ -77,7 +77,6 @@ const john = {
     weight: 92,
     height: 1.95,
     calcBMI: function () {
-
         this.bmi = this.weight / this.height ** 2
     }
 };
@@ -88,6 +87,56 @@ if (john.bmi > mark.bmi) {
 }
 else {
     console.log(`${mark.fullName} BMI ${mark.bmi} is higher than ${john.fullName} BMI ${john.bmi}`)
+}
+
+// ___________________day 5 ___________________
+// template literals
+const i = 5;
+console.log(` we can add string and as well as access the variables ${i}`);
+// Number() function
+const value1 = prompt("enter the number"); //default it takes the value in string
+const value2 = Number(prompt("enter the number"));
+console.log(`1st input ${value1} ${typeof (value1)} , 2nd input ${value2} ${typeof (value2)} `);
+
+//equality
+const item1 = 35;
+const item2 = '35';
+console.log(item1 == item2 ? 'same' : 'not same');
+console.log(item1 === item2 ? 'same' : 'not same'); // strict equality
+
+//prompt() fucntion
+const value1 = prompt("enter the number");
+
+// if
+const item1 = 35;
+const item2 = '35';
+if (item1 === item2) {
+    console.log('same');
+} else {
+    console.log('not same');
+}
+
+//if else if
+const item1 = 35;
+const item2 = '35';
+if (item1 === item2) {
+    console.log('same');
+} else if (item1 == item2) {
+    console.log('same without strict equality');
+}
+else {
+    console.log('not same');
+}
+
+logical operators
+const firstInput = Number(prompt('enter the number'));
+const secondInput = Number(prompt('enter the number'));
+if (firstInput === secondInput && secondInput < 100) {
+    console.log('same');
+} else if (firstInput < secondInput || secondInput > 100) {
+    console.log('2nd input is more');
+} else {
+    console.log('1st input is more');
 }
 
 
