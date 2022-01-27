@@ -118,3 +118,43 @@
 - intro to css
 - basic properties of css
 - box model
+
+# day 10
+
+- **DOM**
+  - (Document Object Model)which allows the javscript to acces n manipulate the html and css
+- selecting the elements
+  - using the html elements
+  - using class name
+    - `document.querySelector('.classname');`
+  - using id name
+    - `document.querySelector('#idname');`
+- storing the value in variables
+- changing the value and textcontent
+- `.addEventListener('events')`
+  - used to add events to the elements
+- random fucntion
+  - `Math.random()*upperLimit + 1`
+- manipulating the css
+
+# day 11
+
+- refactoring the code ( DRY principle)
+- model window
+  - pop up window
+- storing the elements into a variables
+- `.querySelectorAll(' ');`
+- class list
+  - it can change the classes of a particular element in html
+  - types of class list functions
+    - remove()
+    - add()
+    - contains()
+- creating separate functions and calling inside parameter of a listener
+- **KEY BOARD EVENTS**
+  - its activated whenever the any key is pressed
+  - types of key board events are
+    - key press
+    - key up
+    - key down
+- `function(e)`
