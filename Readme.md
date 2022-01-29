@@ -158,3 +158,61 @@
     - key up
     - key down
 - `function(e)`
+
+# day 12
+
+### javscript definition
+
+- hign level
+  - do not need to manage everything eg:allocating memory
+- garbage collected
+  - javscript cleans the memory itself no need do manually
+- just in time complied or interpreted
+  - program is converted into machine code
+- multi-paradigm
+  - its structuring code which will direct your coding style
+- prototype based object oriented
+  - its an object(array)which is matched an the functions of array can be used
+- first class functions
+  - the functins can be passed as an arguement in another function
+  - eg: passing function in an `eventListener`
+- dynamic
+  - no need to define the type of data , can change the type later in the program
+- single thread
+  - it can do only one thing at a time
+- non blocking event loop
+  - executes in background after executed puts back into threads
+
+---
+
+- js run time
+  - it runs in the browser
+  - js engine
+  - it contains
+    - CALL STACK
+    - HEAP
+- web APIs
+  - dom
+  - api
+  - timers
+- call back queue
+- compliation vs interpretation
+  - compilation
+    - code is converted into machine code n then executed by a computer
+  - interpretation
+    - code is executed line by line
+  - jit
+    - code is converted into machine at once and then executed
+- call back queue
+  - click
+  - timer
+  - data
+- execution context
+  - global
+  - top level code
+  - call back functions
+- variable environment
+- **CALL STACK**
+  - global
+  - first
+  - second
