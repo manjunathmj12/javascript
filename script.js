@@ -244,3 +244,13 @@
 //   }
 //   i++;
 // }
+
+//// (TDZ)
+//// variable declaration
+// console.log(firstName);
+// console.log(age);
+// console.log(year);
+
+// var firstName = "mj";
+// let age = 20;
+// const year = 2001;

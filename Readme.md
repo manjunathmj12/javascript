@@ -10,7 +10,7 @@
     - using `script` tag
 - values and variables
 
-# day 4
+# day 5
 
 - data types
   - const ( use most of the time)
@@ -19,7 +19,7 @@
 - basic operators
 - operator precedence
 
-# day 5
+# day 6
 
 - template literal
 - type conversion and coercion
@@ -32,7 +32,7 @@
 - else if
 - logical operators
 
-# day 6
+# day 7
 
 - evolution if javascript
   - different developement in different years
@@ -67,7 +67,7 @@
     - index of ()
   - includes - check whether the element is present in an list or not.
 
-# day 7
+# day 8
 
 - **objects**
   - a objects is a collection of named values
@@ -98,7 +98,7 @@
 - random function
 - trunc function
 
-# day 8
+# day 9
 
 - prettier setup
 - installing node js and setting up
@@ -107,7 +107,7 @@
 - using google and stackoverflow when we got stuck
 - debugging with the console
 
-# day 9
+# day 10
 
 - basic html structure
 - attributes
@@ -119,7 +119,7 @@
 - basic properties of css
 - box model
 
-# day 10
+# day 11
 
 - **DOM**
   - (Document Object Model)which allows the javscript to acces n manipulate the html and css
@@ -137,7 +137,7 @@
   - `Math.random()*upperLimit + 1`
 - manipulating the css
 
-# day 11
+# day 12
 
 - refactoring the code ( DRY principle)
 - model window
@@ -159,7 +159,7 @@
     - key down
 - `function(e)`
 
-# day 12
+# day 13
 
 ### javscript definition
 
@@ -216,3 +216,49 @@
   - global
   - first
   - second
+
+# day 14
+
+- scope concepts
+- scoping
+  - how a variable is accessed (visibility) and organized.
+- scope
+  - its an environment where the variable is declared
+  - global scope
+  - function scope
+  - block scope
+- **lexical scoping**
+  - its a rule , where we can access the code based on where exactly code or block is written
+- global
+  - global variables
+- function scope
+  - local variable
+  - var are function scope
+- block scope
+  - accessible inside an block
+  - let and const , functions are also block when we use strict mode
+- variable look up
+- scope chain
+  - it has access to all outer scope
+  - its always top wards, calling function does not effect it
+- scope chain vs call stack
+- hoisting
+  - it makes variable accessed before its declared or initialized
+  - function hoisting
+    - actual function
+  - var variables
+    - undefined
+  - let and const
+    - error uninitialized
+  - function expressions and arrow
+    -it depends on var or let/const
+- TDZ (Temporal Dead Zone)
+  - let and const accessed before initialized we get error becuse of this tdz
+- this keyword
+  - it refers to the owner of the method
+  - it depend on how the function is called
+  - funtion declaration
+  - simple function call
+  - arrow functions
+  - event listener
+  - new,call,apply,bind
