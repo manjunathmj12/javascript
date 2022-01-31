@@ -262,3 +262,23 @@
   - arrow functions
   - event listener
   - new,call,apply,bind
+
+# day 15
+
+- regular functions vs arrow functions
+  - regular - it can have this keyword
+  - arrow - it doesnt have this keyword
+    - it point to the parent for this keyword
+- arguements
+  - regular has it
+  - arrow doesnt have it
+- primitive(primitive types) vs object(reference types)
+  - primitive is stored in call stack
+    - it creates a separate variable as we change the values
+  - reference is stored in heap
+    - it points to same values even if we copy and change the copied value
+- `object.assign({},copying_object)`
+  - it copies the value from one object to another
+  - it created a normal copy not in-depth copy
+  - it doesnt create a new copy to the nested objects
+-
