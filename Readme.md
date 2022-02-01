@@ -281,4 +281,17 @@
   - it copies the value from one object to another
   - it created a normal copy not in-depth copy
   - it doesnt create a new copy to the nested objects
--
+
+# day 16
+
+- destructuring array []
+  - destructuring the array is taking an array an asigning the value to another variables without the index of that array
+  - receiving the value from an function
+  - nested array
+  - mutating the variables value
+  - default values
+- destructuring objects {}
+  - nested objects
+  - mutating the variables value
+  - default values to the objects in case we dont specify the value
+  - receiving the value from an function an ddestructuring it
